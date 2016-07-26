@@ -3,7 +3,7 @@ Coursera Scala Specialization "Program on a Higher Level" 2016 August session. h
 
 > This Specialization provides a hands-on introduction to functional programming using the widespread programming language, Scala. It begins from the basic building blocks of the functional paradigm, first showing how to use these blocks to solve small problems, before building up to combining these concepts to architect larger functional programs. You'll see how the functional paradigm facilitates parallel and distributed programming, and through a series of hands on examples and programming assignments, you'll learn how to analyze data sets small to large; from parallel programming on multicore architectures, to distributed programming on a cluster using Apache Spark. A final capstone project will allow you to apply the skills you learned by building a large data-intensive application using real-world data.
 
-## Functional Programming Principles in Scala
+## [Functional Programming Principles in Scala](https://github.com/jasonicarter/functional-programming-in-scala/tree/master/fp-principles-scala)
 Learning Outcomes. By the end of this course you will be able to:
 
  - understand the principles of functional programming,
