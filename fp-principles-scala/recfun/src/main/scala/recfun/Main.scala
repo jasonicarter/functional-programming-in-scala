@@ -43,5 +43,19 @@ object Main {
   /**
    * Exercise 3
    */
-    def countChange(money: Int, coins: List[Int]): Int = ???
+    def countChange(money: Int, coins: List[Int]): Int = {
+      // http://mitpress.mit.edu/sicp/full-text/book/book-Z-H-11.html#%_idx_722
+      def loop(money: Int coins: List[Int]): Int = {
+        /*
+         the total number of ways to make change for some amount is equal to the number of ways
+         to make change for the amount without using any of the first kind of coin,
+         plus the number of ways to make change assuming that we do use the first kind of coin.
+         But the latter number is equal to the number of ways to make change for the amount
+         that remains after using a coin of the first kind.
+         */
+        // loop(money, coins.tail) + loop(money - coins.head, coins.tail)
+      }
+
+      loop(money, coins)
+    }
   }
